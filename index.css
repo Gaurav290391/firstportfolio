@@ -1,0 +1,339 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: 'Cardo', serif;
+ }
+ 
+ .bgimage{
+	      background-image: url('2.jpg');
+	      width:98.7vw;
+	      height:100vh;
+	      background-size:cover;
+	      display:flex;
+	      align-items:center;
+	      justify-content:center;
+	      text-align:center;
+	      color:white;
+         }
+
+.menu{	  
+	  color:white;
+	  margin:auto;
+     }
+
+.main-nav{	      
+	      list-style:none;
+		  margin-bottom:4vh;
+		  margin-left:48vw;
+         } 
+ 
+
+.main-nav ul li{
+	            display:inline-block;
+	            font-weight: bold;
+	            line-height: 10vh;
+	            margin-left: 3vw;
+	            text-transform: uppercase;
+               }
+
+.main-nav ul li a{
+	              color:white;
+				  text-decoration:none;
+				  padding:5px 20;
+				  font-family:"Montserrat", sans-serif;
+				  font-size:1em;
+	
+                 }
+				 
+.main-nav ul li a:hover{
+	                    border:1px solid white;
+						color:#4cbb17;
+                       }
+					   
+.mobile-icon{
+	           margin-left:48vw;
+			   margin-bottom:4vh
+			   
+            }					   
+
+.profile{
+	     width:26vw;
+		 background-color:rgba(0,0,0,0.5);
+		 padding:2vw 1vh;
+		 border-radius:5%;
+		 font-weight:bold;
+         margin-left:26vw;
+         margin-bottom:10vh;
+         height:72vh		 
+        }
+
+a.active{
+	      background-color:none;
+        }		
+		
+.pic{
+	height:45vh;
+	border-radius:70%;
+	margin-top:1vh;
+    width:18vw	
+   }
+
+.profiletext h2{
+	            font-size:1.6em;
+				font-weight:500;
+				margin-top:1vh;
+               }   
+			   
+.profiletext h3{
+	            font-size:1.2em;
+				font-weight:500;
+				margin-top:1vh;
+               }			   
+
+i{
+  color:white;
+  margin-top:1vh;  
+ }
+ 
+ .bgimage2{
+	       background-image: url('3.jpg');
+	       width: 98.7vw;
+	       height: 100vh;
+	       background-size:cover;
+		   display:flex;
+	       align-items:center;
+	       justify-content:center;
+	       text-align:center;
+	       color:white;  
+          }
+		  
+#aboutme{
+	     font-size:5em;
+		 font-family:'Italianno', cursive;
+		 font-weight:bold;
+		 display:inline-block;
+		 margin-bottom:80vh;
+		 margin-right:12vw
+        }	
+
+table {
+       border-collapse: collapse;
+	   width: 35vw;
+	   height:20vh;
+       margin-left:5vw	   
+      }		
+
+table, th, td {
+               border: 1px solid white;
+              }	
+			  
+.bgimage3{
+	       background-image: url('4.jpg');
+	       width: 98.7vw;
+	       height: 100vh;
+	       background-size:cover;
+		   font-size:16px
+}
+
+#skills{
+	     font-size:5em;
+		 font-family:'Italianno', cursive;
+		 font-weight:bold;
+		 display:inline-block;
+		 margin-top:3vh;		 
+        }
+
+.wrapper{
+		 margin:0 auto;
+		 position:relative;
+		 padding:30px 0 30px;
+		 line-height:28px;
+		 font-size:1em;
+		 text-transform:uppercase
+        }
+
+.topic{
+	   padding-top:25px;
+       list-style:none
+	  } 
+	  
+.topic li{
+	      margin-bottom:50px;
+		  height:15px;
+		  margin-left:5vw
+         }
+
+.topic li b{
+	        position:relative;
+			margin-bottom:50px;
+			font-size:1.3em;
+			margin-top:50px;
+	       }		   		   
+
+.line{
+      position:absolute;
+	  background:#008080;
+	  margin:2px 0;
+	  height:15px;
+      box-shadow: 3px 6px 12px ;
+      margin-left:0.2vw	  
+     }
+
+.html{
+	  width:90vw;
+	  -webkit-animation:html 2s ease-out ;
+	  -o-animation: html 2s ease-out;
+	  animation: html 2s ease-out;
+	  margin-top:25px;
+	  height:3vh;	
+     }
+
+.javascript{
+	  width:85vw;
+	  -webkit-animation:javascript 2s ease-out ;
+	  -o-animation: javascript 2s ease-out;
+	  animation: javascript 2s ease-out;
+	  margin-top:25px;
+	  height:3vh
+     }
+
+.css{
+	  width:75vw;
+	  -webkit-animation:css 2s ease-out ;
+	  -o-animation: css 2s ease-out;
+	  animation: css 2s ease-out;
+	  margin-top:25px;
+	  height:3vh;
+     }
+
+.c{
+	  width:70vw;
+	  -webkit-animation:c 2s ease-out ;
+	  -o-animation: c 2s ease-out;
+	  animation: c 2s ease-out;
+	  margin-top:25px;
+	  height:3vh
+     }
+
+.bgimage4{
+	      background-image: url('5.jpg');
+	      width:98.7vw;
+	      height: 100vh;
+	      background-size:cover;
+	      display:flex;	      
+	      color:black;
+		  font-size:16px
+}	
+
+#projects{
+	     font-size:5em;
+		 font-family:'Italianno', cursive;
+		 font-weight:bold;
+		 display:inline-block;
+		 margin-bottom:25vh;
+		 margin-right:40vw;		 
+	     }
+		 
+.first{
+	 height:54vh;
+	 width:25vw;
+	 margin-left:-33vw;
+	 margin-top:13vh;
+}
+
+.name
+{ 
+  margin-left:-25vw;
+  margin-top:68vh;
+  font-size:0.8em
+}
+
+@media screen and (min-width:780px){
+	.mobile-icon{
+		         display:none
+	}
+}
+
+@media screen and (min-width:480px) and (max-width:779px){
+	.main-nav ul li{
+		            display:none
+	               }
+	
+
+	.mobile-icon{ 
+		color: #fff;
+		float: right;
+		margin-top: 5px;
+		margin-right: 30px;
+	}
+
+	.main-nav{float: left;}
+
+
+	
+	.main-nav ul li{
+	                display:block;
+					margin-bottom:-7vh
+     			   }
+	
+	.profile{
+		     margin-top:20vh
+	        }
+			
+	.profiletext h2{
+	                font-size:1.5em;
+                   }
+	
+    .profiletext h3{
+	            font-size:1.2em;
+				font-weight:300;
+				margin-top:1vh;
+               }
+    
+    .name{
+		  margin-left:-29vw
+	     }	
+}
+
+@media screen and (max-width:480px){
+	.main-nav ul li{
+		            display:none
+	               }
+	
+
+	.mobile-icon{ 
+		color: #fff;
+		float: right;
+		margin-top: 5px;
+		margin-right: 30px;
+	}
+
+	.main-nav{float: left;}
+
+
+	
+	.main-nav ul li{
+	                display:block;
+					margin:-4.3vh
+     			   }
+	
+	.profile{
+		     margin-top:26vh
+	        }
+	
+	.profiletext h2{
+	            font-size:1.5em;
+               }
+	
+    .profiletext h3{
+	            font-size:1.2em;
+				font-weight:300;
+				margin-top:1vh;
+               }
+    
+    .name{
+		  margin-left:-29vw
+	     }	
+}
+
+	 
